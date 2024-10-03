@@ -1,0 +1,1 @@
+$itemID/$revID is pending with the approval in Release Workflow

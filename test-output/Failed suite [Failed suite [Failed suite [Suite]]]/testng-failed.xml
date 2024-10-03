@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.tc_awc.listeners.ListenersImplementation"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="com.tc_awc.functionaltestcases.AWC_SubmitToWorkFlowForHigherReleaseStatus">
+        <methods>
+          <include name="submitToWorkFlowForHigherReleaseStatus_EVT1WIP" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="submitToWorkFlowForHigherReleaseStatus_PVT1WIP" invocation-numbers="0"/>
+          <include name="LaunchApplication"/>
+          <include name="submitToWorkFlowForHigherReleaseStatus_DVT1WIP" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.tc_awc.functionaltestcases.AWC_SubmitToWorkFlowForHigherReleaseStatus -->
+      <class name="com.tc_awc.configuration.AWC_revisionRule">
+        <methods>
+          <include name="tearDown"/>
+          <include name="applyRevisionRulePVT1WIP" invocation-numbers="0"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- com.tc_awc.configuration.AWC_revisionRule -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]] -->
